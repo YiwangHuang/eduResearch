@@ -1,0 +1,30 @@
+{
+    "name": "markdown-it-anyBlock",
+    "version": "0.0.1",
+    "description": "Markdown-it plugin to convert any block to html",
+    "type": "module",
+    "main": "dist/index_mdit.cjs",
+    "module": "dist/index_mdit.js",
+    "types": "dist/index_mdit.d.ts",
+    "files": [
+        "dist/**"
+    ],
+    "scripts": {
+        "build": "vite build",
+        "clean": "rm -rf dist node_modules"
+    },
+    "devDependencies": {
+        "vite": "^5.0.0",
+        "typescript": "^5.0.0",
+        "vite-plugin-dts": "^3.7.0",
+        "markdown-it": "^14.1.0",
+        "markdown-it-container": "^4.0.0"
+    },
+    "peerDependencies": {
+        "vuepress": "^2.0.0-rc.21"
+    },
+    "dependencies": {
+        "autoprefixer": "^10.4.21",
+        "postcss": "^8.5.3"
+    }
+}
