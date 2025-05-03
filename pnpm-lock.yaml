@@ -28,19 +28,24 @@ importers:
         version: 2.0.0-rc.82(katex@0.16.22)(markdown-it@14.1.0)(sass-embedded@1.87.0)(typescript@5.8.3)(vuepress@2.0.0-rc.21(@vuepress/bundler-vite@2.0.0-rc.21(@types/node@22.14.1)(sass-embedded@1.87.0)(typescript@5.8.3)(yaml@2.7.1))(typescript@5.8.3)(vue@3.5.13(typescript@5.8.3)))
 
   docs:
-    dependencies:
-      vuepress-plugin-markdown-anyblock:
-        specifier: workspace:*
-        version: link:../plugins/vuepressAnyblockPlugin
     devDependencies:
       '@vuepress/bundler-vite':
         specifier: 2.0.0-rc.21
         version: 2.0.0-rc.21(@types/node@22.14.1)(sass-embedded@1.87.0)(typescript@5.8.3)(yaml@2.7.1)
+      inject-css:
+        specifier: workspace:*
+        version: link:../plugins/injectCSS
       jsdom:
         specifier: ^26.1.0
         version: 26.1.0
+      katex:
+        specifier: latest
+        version: 0.16.22
+      markdown-it-obsidian-callouts:
+        specifier: latest
+        version: 0.3.2(markdown-it@14.1.0)
       sass-embedded:
-        specifier: ^1.86.3
+        specifier: ^1.87.0
         version: 1.87.0
       vue:
         specifier: ^3.5.13
@@ -48,6 +53,9 @@ importers:
       vuepress:
         specifier: 2.0.0-rc.21
         version: 2.0.0-rc.21(@vuepress/bundler-vite@2.0.0-rc.21(@types/node@22.14.1)(sass-embedded@1.87.0)(typescript@5.8.3)(yaml@2.7.1))(typescript@5.8.3)(vue@3.5.13(typescript@5.8.3))
+      vuepress-plugin-markdown-anyblock:
+        specifier: workspace:*
+        version: link:../plugins/vuepressAnyblockPlugin
       vuepress-theme-hope:
         specifier: 2.0.0-rc.82
         version: 2.0.0-rc.82(katex@0.16.22)(markdown-it@14.1.0)(sass-embedded@1.87.0)(typescript@5.8.3)(vuepress@2.0.0-rc.21(@vuepress/bundler-vite@2.0.0-rc.21(@types/node@22.14.1)(sass-embedded@1.87.0)(typescript@5.8.3)(yaml@2.7.1))(typescript@5.8.3)(vue@3.5.13(typescript@5.8.3)))
@@ -71,7 +79,7 @@ importers:
         specifier: ^1.4.2
         version: 1.4.2
 
-  plugins/injectCSS_copy:
+  plugins/injectCSS:
     dependencies:
       autoprefixer:
         specifier: ^10.4.21
@@ -2398,6 +2406,11 @@ packages:
 
   markdown-it-mark@4.0.0:
     resolution: {integrity: sha512-YLhzaOsU9THO/cal0lUjfMjrqSMPjjyjChYM7oyj4DnyaXEzA8gnW6cVJeyCrCVeyesrY2PlEdUYJSPFYL4Nkg==}
+
+  markdown-it-obsidian-callouts@0.3.2:
+    resolution: {integrity: sha512-YfvKgXJvqfXYqHIkQhQsDe/QzOdndhCkttqokPoZUEqUrzmumbUsUAUmyheV/igJFGwwsnE7h2UMIAKcdrLbrg==}
+    peerDependencies:
+      markdown-it: ^14.0.0
 
   markdown-it-sub@2.0.0:
     resolution: {integrity: sha512-iCBKgwCkfQBRg2vApy9vx1C1Tu6D8XYo8NvevI3OlwzBRmiMtsJ2sXupBgEA7PPxiDwNni3qIUkhZ6j5wofDUA==}
@@ -6288,6 +6301,10 @@ snapshots:
   markdown-it-ins@4.0.0: {}
 
   markdown-it-mark@4.0.0: {}
+
+  markdown-it-obsidian-callouts@0.3.2(markdown-it@14.1.0):
+    dependencies:
+      markdown-it: 14.1.0
 
   markdown-it-sub@2.0.0: {}
 

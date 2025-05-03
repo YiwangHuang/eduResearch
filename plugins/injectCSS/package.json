@@ -1,5 +1,5 @@
 {
-    "name": "inject-css-copy",
+    "name": "inject-css",
     "version": "0.0.1",
     "description": "VuePress plugin to inject CSS",
     "type": "module",
