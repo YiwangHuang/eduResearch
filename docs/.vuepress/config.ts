@@ -4,7 +4,7 @@ import { markdownAnyblockPlugin } from 'vuepress-plugin-markdown-anyblock'
 import { injectCSSPlugin } from 'inject-css'
 import  mdItObsidianCallouts  from 'markdown-it-obsidian-callouts'
 export default defineUserConfig({
-  base: "/",
+  base: "/eduResearch/",
 
   lang: "zh-CN",
   title: "iPhys",
