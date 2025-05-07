@@ -4,41 +4,41 @@ layout: BlogHome
 icon: house
 title: 博客主页
 heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-heroText: 你博客的名称
+heroText: iPhys
 heroFullScreen: true
-tagline: 你可以在这里放置你的口号与标语
+tagline: Sharing our progress in teaching and educational research
 projects:
   - icon: folder-open
-    name: 项目名称
+    name: 项目（施工中）
     desc: 项目详细描述
     link: https://你的项目链接
 
   - icon: link
-    name: 链接名称
+    name: 链接（施工中）
     desc: 链接详细描述
     link: https://链接地址
 
   - icon: book
-    name: 书籍名称
+    name: 书籍（施工中）
     desc: 书籍详细描述
     link: https://你的书籍链接
 
   - icon: newspaper
-    name: 文章名称
+    name: 文章（施工中）
     desc: 文章详细描述
     link: https://你的文章链接
 
   - icon: user-group
-    name: 伙伴名称
+    name: 伙伴（施工中）
     desc: 伙伴详细介绍
     link: https://你的伙伴链接
 
   - icon: https://theme-hope-assets.vuejs.press/logo.svg
-    name: 自定义项目
+    name: 项目（施工中）
     desc: 自定义详细介绍
     link: https://你的自定义链接
 
-footer: 自定义你的页脚文字
+footer: 沈正杰嘉兴市名师工作室
 ---
 
 这是一个博客主页的案例。

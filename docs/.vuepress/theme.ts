@@ -24,8 +24,11 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "默认页脚",
+  footer: "沈正杰嘉兴市名师工作室",
   displayFooter: true,
+
+  // 版权信息
+  copyright: "Copyright © 2025 黄轶凡",
 
   // 博客相关
   blog: {

@@ -7,7 +7,7 @@ export default defineUserConfig({
   base: "/",
 
   lang: "zh-CN",
-  title: "VuePress 博客",
+  title: "iPhys",
   description: "vuepress-theme-hope 的博客演示",
   theme,
   extendsMarkdown: (md) => {
